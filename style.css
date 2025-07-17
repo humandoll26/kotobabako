@@ -1,0 +1,49 @@
+body {
+  font-family: "Hiragino Mincho ProN", serif;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #222;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 2px solid #ccc;
+  background: #fffaf0;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#kotoba {
+  font-size: 1.5em;
+  margin: 40px 0;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.65); /* うっすら白帯で読みやすく */
+  border-radius: 12px;
+  display: inline-block;
+  max-width: 80%;
+  line-height: 1.8;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #666;
+}
