@@ -1,49 +1,49 @@
 body {
-  font-family: "Hiragino Mincho ProN", serif;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
   background-image: url("bg.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center center;
-  color: #222;
-  text-align: center;
-  padding: 50px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100dvh; /* ← ← ← スマホ対応に修正 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 2rem 1rem; /* ← ← ← 端末サイズが小さいときに余白確保 */
 }
 
 .container {
   max-width: 600px;
+  width: 100%;
   margin: 0 auto;
   padding: 30px;
   border: 2px solid #ccc;
   background: #fffaf0;
   border-radius: 10px;
+  box-sizing: border-box;
 }
 
 h1 {
   font-size: 2em;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 #kotoba {
   font-size: 1.5em;
-  margin: 40px 0;
+  margin: 40px auto;
   padding: 1em;
-  background-color: rgba(255, 255, 255, 0.65); /* うっすら白帯で読みやすく */
+  background-color: rgba(255, 255, 255, 0.65);
   border-radius: 12px;
-  display: inline-block;
-  max-width: 80%;
+  display: block;
+  max-width: 90%;
   line-height: 1.8;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
 }
-
 
 button {
-  padding: 10px 20px;
-  font-size: 1em;
-  cursor: pointer;
-}
-
-#message {
-  margin-top: 20px;
-  font-size: 0.9em;
-  color: #666;
-}
+  padding: 10
